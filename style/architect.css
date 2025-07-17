@@ -19,11 +19,21 @@
 }
 
 /* shared style*/
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+main > section{
+  margin-top: 130px;
+}
 .display-flex{
   display: flex;
 }
 .bg-color{
   background-color: rgba(255, 144, 14, 0.1);
+}
+.color-primary{
+  color: #FF900E;
 }
 
 .btn-primary{
@@ -77,6 +87,30 @@
   margin-bottom: 50px;
 }
 
+/* feature content related style*/
+
+.feature-image{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+.features-container{
+  align-items: center;
+  
+}
+.feature-content{
+  margin-left: 130px;
+  max-width: 530px;
+}
+.feature-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+ 
+#quick-text{
+  font-weight: 500;
+}
+ 
 /*  Responsive Media Query */
 @media screen and (max-width:576px) {
   .navbar, .nav-links{
