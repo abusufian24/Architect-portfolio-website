@@ -195,6 +195,17 @@ main > section{
 .sponsor-company img{
   filter: grayscale(100%);
 }
+.footer{
+  background-color: antiquewhite;
+  max-width: 1440px;
+  height: 100px;
+  margin: 100px auto 150px;
+  border-radius: 8px;
+  text-align: center;
+  align-content: center;
+  
+  
+}
  
 /*  Responsive Media Query */
 
